@@ -34,12 +34,15 @@ end
 
 group :development do
   gem "better_errors"
+  gem "binding_of_caller"
 end
 
-gem "binding_of_caller"
+gem 'paperclip'
+
+gem 'sorcery'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+# rails ggem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
